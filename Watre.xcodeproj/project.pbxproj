@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32EB6FD7295FDC6900D111DF /* WatreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB6FD6295FDC6900D111DF /* WatreApp.swift */; };
+		32EB6FD9295FDC6900D111DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB6FD8295FDC6900D111DF /* ContentView.swift */; };
+		32EB6FDB295FDC6A00D111DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EB6FDA295FDC6A00D111DF /* Assets.xcassets */; };
+		32EB6FDF295FDC6A00D111DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EB6FDE295FDC6A00D111DF /* Preview Assets.xcassets */; };
+		32EB6FE9295FDC6A00D111DF /* WatreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB6FE8295FDC6A00D111DF /* WatreTests.swift */; };
+		32EB6FF3295FDC6A00D111DF /* WatreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB6FF2295FDC6A00D111DF /* WatreUITests.swift */; };
+		32EB6FF5295FDC6A00D111DF /* WatreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB6FF4295FDC6A00D111DF /* WatreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32EB6FE5295FDC6A00D111DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32EB6FCB295FDC6900D111DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EB6FD2295FDC6900D111DF;
+			remoteInfo = Watre;
+		};
+		32EB6FEF295FDC6A00D111DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32EB6FCB295FDC6900D111DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EB6FD2295FDC6900D111DF;
+			remoteInfo = Watre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32EB6FD3295FDC6900D111DF /* Watre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EB6FD6295FDC6900D111DF /* WatreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatreApp.swift; sourceTree = "<group>"; };
+		32EB6FD8295FDC6900D111DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32EB6FDA295FDC6A00D111DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32EB6FDC295FDC6A00D111DF /* Watre.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Watre.entitlements; sourceTree = "<group>"; };
+		32EB6FDE295FDC6A00D111DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32EB6FE4295FDC6A00D111DF /* WatreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EB6FE8295FDC6A00D111DF /* WatreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatreTests.swift; sourceTree = "<group>"; };
+		32EB6FEE295FDC6A00D111DF /* WatreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EB6FF2295FDC6A00D111DF /* WatreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatreUITests.swift; sourceTree = "<group>"; };
+		32EB6FF4295FDC6A00D111DF /* WatreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32EB6FD0295FDC6900D111DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB6FE1295FDC6A00D111DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB6FEB295FDC6A00D111DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32EB6FCA295FDC6900D111DF = {
+			isa = PBXGroup;
+			children = (
+				32EB6FD5295FDC6900D111DF /* Watre */,
+				32EB6FE7295FDC6A00D111DF /* WatreTests */,
+				32EB6FF1295FDC6A00D111DF /* WatreUITests */,
+				32EB6FD4295FDC6900D111DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32EB6FD4295FDC6900D111DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32EB6FD3295FDC6900D111DF /* Watre.app */,
+				32EB6FE4295FDC6A00D111DF /* WatreTests.xctest */,
+				32EB6FEE295FDC6A00D111DF /* WatreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32EB6FD5295FDC6900D111DF /* Watre */ = {
+			isa = PBXGroup;
+			children = (
+				32EB6FD6295FDC6900D111DF /* WatreApp.swift */,
+				32EB6FD8295FDC6900D111DF /* ContentView.swift */,
+				32EB6FDA295FDC6A00D111DF /* Assets.xcassets */,
+				32EB6FDC295FDC6A00D111DF /* Watre.entitlements */,
+				32EB6FDD295FDC6A00D111DF /* Preview Content */,
+			);
+			path = Watre;
+			sourceTree = "<group>";
+		};
+		32EB6FDD295FDC6A00D111DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32EB6FDE295FDC6A00D111DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32EB6FE7295FDC6A00D111DF /* WatreTests */ = {
+			isa = PBXGroup;
+			children = (
+				32EB6FE8295FDC6A00D111DF /* WatreTests.swift */,
+			);
+			path = WatreTests;
+			sourceTree = "<group>";
+		};
+		32EB6FF1295FDC6A00D111DF /* WatreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32EB6FF2295FDC6A00D111DF /* WatreUITests.swift */,
+				32EB6FF4295FDC6A00D111DF /* WatreUITestsLaunchTests.swift */,
+			);
+			path = WatreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32EB6FD2295FDC6900D111DF /* Watre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EB6FF8295FDC6A00D111DF /* Build configuration list for PBXNativeTarget "Watre" */;
+			buildPhases = (
+				32EB6FCF295FDC6900D111DF /* Sources */,
+				32EB6FD0295FDC6900D111DF /* Frameworks */,
+				32EB6FD1295FDC6900D111DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watre;
+			productName = Watre;
+			productReference = 32EB6FD3295FDC6900D111DF /* Watre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32EB6FE3295FDC6A00D111DF /* WatreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EB6FFB295FDC6A00D111DF /* Build configuration list for PBXNativeTarget "WatreTests" */;
+			buildPhases = (
+				32EB6FE0295FDC6A00D111DF /* Sources */,
+				32EB6FE1295FDC6A00D111DF /* Frameworks */,
+				32EB6FE2295FDC6A00D111DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EB6FE6295FDC6A00D111DF /* PBXTargetDependency */,
+			);
+			name = WatreTests;
+			productName = WatreTests;
+			productReference = 32EB6FE4295FDC6A00D111DF /* WatreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32EB6FED295FDC6A00D111DF /* WatreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EB6FFE295FDC6A00D111DF /* Build configuration list for PBXNativeTarget "WatreUITests" */;
+			buildPhases = (
+				32EB6FEA295FDC6A00D111DF /* Sources */,
+				32EB6FEB295FDC6A00D111DF /* Frameworks */,
+				32EB6FEC295FDC6A00D111DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EB6FF0295FDC6A00D111DF /* PBXTargetDependency */,
+			);
+			name = WatreUITests;
+			productName = WatreUITests;
+			productReference = 32EB6FEE295FDC6A00D111DF /* WatreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32EB6FCB295FDC6900D111DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					32EB6FD2295FDC6900D111DF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					32EB6FE3295FDC6A00D111DF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 32EB6FD2295FDC6900D111DF;
+					};
+					32EB6FED295FDC6A00D111DF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 32EB6FD2295FDC6900D111DF;
+					};
+				};
+			};
+			buildConfigurationList = 32EB6FCE295FDC6900D111DF /* Build configuration list for PBXProject "Watre" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32EB6FCA295FDC6900D111DF;
+			productRefGroup = 32EB6FD4295FDC6900D111DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32EB6FD2295FDC6900D111DF /* Watre */,
+				32EB6FE3295FDC6A00D111DF /* WatreTests */,
+				32EB6FED295FDC6A00D111DF /* WatreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32EB6FD1295FDC6900D111DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EB6FDF295FDC6A00D111DF /* Preview Assets.xcassets in Resources */,
+				32EB6FDB295FDC6A00D111DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB6FE2295FDC6A00D111DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB6FEC295FDC6A00D111DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32EB6FCF295FDC6900D111DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EB6FD9295FDC6900D111DF /* ContentView.swift in Sources */,
+				32EB6FD7295FDC6900D111DF /* WatreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB6FE0295FDC6A00D111DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EB6FE9295FDC6A00D111DF /* WatreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB6FEA295FDC6A00D111DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EB6FF5295FDC6A00D111DF /* WatreUITestsLaunchTests.swift in Sources */,
+				32EB6FF3295FDC6A00D111DF /* WatreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32EB6FE6295FDC6A00D111DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32EB6FD2295FDC6900D111DF /* Watre */;
+			targetProxy = 32EB6FE5295FDC6A00D111DF /* PBXContainerItemProxy */;
+		};
+		32EB6FF0295FDC6A00D111DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32EB6FD2295FDC6900D111DF /* Watre */;
+			targetProxy = 32EB6FEF295FDC6A00D111DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32EB6FF6295FDC6A00D111DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32EB6FF7295FDC6A00D111DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		32EB6FF9295FDC6A00D111DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Watre/Watre.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watre/Preview Content\"";
+				DEVELOPMENT_TEAM = 723BMNR444;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MohnishKalia.Watre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32EB6FFA295FDC6A00D111DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Watre/Watre.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watre/Preview Content\"";
+				DEVELOPMENT_TEAM = 723BMNR444;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MohnishKalia.Watre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32EB6FFC295FDC6A00D111DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 723BMNR444;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MohnishKalia.WatreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watre.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Watre";
+			};
+			name = Debug;
+		};
+		32EB6FFD295FDC6A00D111DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 723BMNR444;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MohnishKalia.WatreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watre.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Watre";
+			};
+			name = Release;
+		};
+		32EB6FFF295FDC6A00D111DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 723BMNR444;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MohnishKalia.WatreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Watre;
+			};
+			name = Debug;
+		};
+		32EB7000295FDC6A00D111DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 723BMNR444;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MohnishKalia.WatreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Watre;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32EB6FCE295FDC6900D111DF /* Build configuration list for PBXProject "Watre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EB6FF6295FDC6A00D111DF /* Debug */,
+				32EB6FF7295FDC6A00D111DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EB6FF8295FDC6A00D111DF /* Build configuration list for PBXNativeTarget "Watre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EB6FF9295FDC6A00D111DF /* Debug */,
+				32EB6FFA295FDC6A00D111DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EB6FFB295FDC6A00D111DF /* Build configuration list for PBXNativeTarget "WatreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EB6FFC295FDC6A00D111DF /* Debug */,
+				32EB6FFD295FDC6A00D111DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EB6FFE295FDC6A00D111DF /* Build configuration list for PBXNativeTarget "WatreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EB6FFF295FDC6A00D111DF /* Debug */,
+				32EB7000295FDC6A00D111DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32EB6FCB295FDC6900D111DF /* Project object */;
+}
