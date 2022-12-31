@@ -45,6 +45,8 @@
 		32EB6FEE295FDC6A00D111DF /* WatreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EB6FF2295FDC6A00D111DF /* WatreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatreUITests.swift; sourceTree = "<group>"; };
 		32EB6FF4295FDC6A00D111DF /* WatreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32EB7001295FDC8700D111DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32EB7002295FDE8200D111DF /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,8 @@
 		32EB6FCA295FDC6900D111DF = {
 			isa = PBXGroup;
 			children = (
+				32EB7002295FDE8200D111DF /* LICENSE.md */,
+				32EB7001295FDC8700D111DF /* README.md */,
 				32EB6FD5295FDC6900D111DF /* Watre */,
 				32EB6FE7295FDC6A00D111DF /* WatreTests */,
 				32EB6FF1295FDC6A00D111DF /* WatreUITests */,
